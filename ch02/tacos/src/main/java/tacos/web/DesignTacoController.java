@@ -61,7 +61,7 @@ public void addIngredientsToModel(Model model) {
 /*
 //tag::processDesign[]
   @PostMapping
-  public String processDesign(Design design) {
+  public String processDesign(Model design) {
     // Save the taco design...
     // We'll do this in chapter 3
     log.info("Processing design: " + design);
